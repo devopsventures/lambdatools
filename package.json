@@ -1,0 +1,28 @@
+{
+  "name": "@devopsventures/lambdatools",
+  "version": "0.0.1",
+  "description": "Tools for supporting building and deployment of AWS Lambda Functions",
+  "scripts": {
+    "test": "mocha",
+    "ci-test": "mocha",
+    "ci-build": "npm run ci-test"
+  },
+  "homepage": "https://github.com/devopsventures/lambdatools",
+  "bugs": "https://github.com/devopsventures/lambdatools/issues",
+  "author": {
+    "name": "Devops Ventures",
+    "url": "https://github.com/devopsventures"
+  },
+  "license": " Apache-2.0",
+  "bin": {
+    "lambdatools": "bin/lambdatools.js"
+  },
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "commander": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

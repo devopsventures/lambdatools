@@ -1,0 +1,20 @@
+{
+  "name": "Node.js",
+
+  "exclude": {
+    "files": [
+      ".gitignore",
+      ".npmignore",
+      "npm-debug.log"
+    ],
+
+    "directories": [
+      ".idea",
+      ".git"
+    ],
+
+    "regexFilters": [
+      "\\.zip$"
+    ]
+  }
+}
